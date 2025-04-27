@@ -16,6 +16,13 @@
   justify-content: space-between;
   align-items: center;
 }
+@media screen and (max-width: 952px) {
+  .header .container {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+  }
+}
 .header .nav__links {
   display: flex;
 }
@@ -41,8 +48,7 @@
 }
 .header .burger__menu-btn {
   display: none;
-  position: absolute;
-  top: 42px;
+  position: relative;
   left: 88%;
   width: 48px;
   height: 48px;
@@ -203,11 +209,12 @@
 }
 
 .feedback {
+  padding-top: 124px;
+  padding-bottom: 81px;
   background-color: #292929;
 }
 
 .feedback__title {
-  padding-top: 124px;
   color: #FFF;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 80px;
@@ -225,7 +232,6 @@
 }
 
 .feedback__description {
-  padding-bottom: 81px;
   color: #FFF;
   font-family: Roboto, sans-serif;
   font-size: 20px;
@@ -236,7 +242,7 @@
 }
 @media screen and (max-width: 952px) {
   .feedback__description {
-    max-width: 888px;
-    padding-left: 32px;
+    padding-left: 46px;
+    padding-right: 10px;
   }
 }

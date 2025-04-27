@@ -1,9 +1,10 @@
 .feedback{
+    padding-top: 124px;
+    padding-bottom: 81px;
     background-color: #292929;
 }
 
 .feedback__title {
-    padding-top: 124px;
     color: #FFF;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 80px;
@@ -20,7 +21,6 @@
 }
 
 .feedback__description {
-    padding-bottom: 81px;
     color: #FFF;
     font-family: Roboto, sans-serif;
     font-size: 20px;
@@ -30,7 +30,7 @@
     letter-spacing: 2px;
 
     @media  screen and (max-width:952px) {
-        max-width: 888px;
-        padding-left: 32px;
+        padding-left: 46px;
+        padding-right: 10px;
     }
 }
