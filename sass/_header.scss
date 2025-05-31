@@ -19,6 +19,7 @@
 
     .menu__body {
         display: flex;
+        z-index: 2;
 
         .menu__item {
             padding: 11px 32px;
